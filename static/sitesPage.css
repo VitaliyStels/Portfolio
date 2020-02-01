@@ -1,0 +1,85 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+header {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 200px;
+}
+
+.TitleText {
+    text-align: center;
+    font-size: 50px; 
+    
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+tr {
+    width: 100%;
+}
+td {
+    width: 100%;
+    height: 520px;
+}
+
+.projectImage {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 70%;
+    transition: .6s;
+}
+
+
+.titleProject {
+    font-size: 1px;
+}
+
+.textProject {
+    font-size: 1px;
+}
+
+.aboutProject1 {
+    text-align: center;
+}
+
+
+
+
+
+td:hover .projectImage {
+    float: left;
+    width: 50%;
+    transition: .6s;
+}
+
+
+td:hover .titleProject {
+    font-size: 30px;
+    
+}
+
+td:hover .textProject {
+    font-size: 20px;
+    
+}
+
+td:hover .aboutProject1 {
+    opacity: 1;
+    
+}
+
+
+.buttonType1 {
+    text-decoration: underline;
+    color: rgb(50, 152, 250);
+}
